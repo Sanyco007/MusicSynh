@@ -4,16 +4,23 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378291735699" ignored="false" />
+    <file path="/Main.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378647003789" ignored="false" />
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381051202" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381080865" ignored="false" />
-    <file path="/VkAuth.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378291661360" ignored="false" />
-    <file path="/AuthProfile.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378233853992" ignored="false" />
-    <file path="/VkConnection.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378305932933" ignored="false" />
-    <file path="/MainStage.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378305387177" ignored="false" />
+    <file path="/VkAuth.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378646977185" ignored="false" />
+    <file path="/AuthProfile.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378646872089" ignored="false" />
+    <file path="/VkConnection.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378667298014" ignored="false" />
+    <file path="/MainStage.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378640873258" ignored="false" />
     <file path="/Recources.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378291725025" ignored="false" />
     <file path="/RequestThread.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378304930665" ignored="false" />
     <file path="/VkResponse.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378305153287" ignored="false" />
+    <file path="/MainStage.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378640074673" ignored="false" />
+    <file path="/StageStarter.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378646539069" ignored="false" />
+    <file path="/MainController.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378669140535" ignored="false" />
+    <file path="/AudioSearch.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378665243688" ignored="false" />
+    <file path="/AudioObject.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378666435431" ignored="false" />
+    <file path="/IAudioResult.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378662817022" ignored="false" />
+    <file path="/AudioMethods.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1378665165399" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +81,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainStage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gui/MainStage.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="595" selection-end="685" vertical-scroll-proportion="0.6857143">
+            <state line="30" column="0" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VkConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/network/VkConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="33" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3239#3398#0" expanded="true" />
+                <element signature="e#3383#3384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StageStarter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/StageStarter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="64" selection-start="1634" selection-end="1634" vertical-scroll-proportion="2.0816326">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1149#1752#0" expanded="true" />
+                <element signature="e#1741#1742#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainStage.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainStage.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioMethods.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/audio/AudioMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="23" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/audio/AudioObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="13" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,17 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/auth/AuthProfile.java" />
-        <option value="$PROJECT_DIR$/src/network.java" />
-        <option value="$PROJECT_DIR$/src/auth/VkAuth.java" />
         <option value="$PROJECT_DIR$/src/resources/Recources.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/network/RequestThread.java" />
         <option value="$PROJECT_DIR$/src/network/VkResponse.java" />
+        <option value="$PROJECT_DIR$/help/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainStage.fxml" />
         <option value="$PROJECT_DIR$/src/gui/MainStage.java" />
+        <option value="$PROJECT_DIR$/src/gui/StageStarter.java" />
+        <option value="$PROJECT_DIR$/src/auth/AuthProfile.java" />
+        <option value="$PROJECT_DIR$/src/auth/VkAuth.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/audio/AudioSearch.java" />
+        <option value="$PROJECT_DIR$/src/audio/IAudioResult.java" />
+        <option value="$PROJECT_DIR$/src/audio/AudioMethods.java" />
+        <option value="$PROJECT_DIR$/src/audio/AudioObject.java" />
         <option value="$PROJECT_DIR$/src/network/VkConnection.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainController.java" />
       </list>
     </option>
   </component>
@@ -160,7 +238,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -270,8 +347,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicSynh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicSynh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,12 +384,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -301,6 +397,29 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MusicSynh" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -313,19 +432,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -354,6 +460,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -392,37 +511,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MusicSynh" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -459,14 +555,15 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39774558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38969404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -475,13 +572,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22609401" sideWeight="0.6698873" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33011273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22609401" sideWeight="0.67310786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3268921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -553,85 +649,132 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.33161953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/jre/lib/jfxrt.jar!/javafx/fxml/FXMLLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="484" column="0" selection-start="25168" selection-end="25168" vertical-scroll-proportion="0.73015875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/src/sample/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/help/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.3923077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/jre/lib/jfxrt.jar!/javafx/application/Application.class">
+    <entry file="file://$PROJECT_DIR$/help/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="466" selection-end="466" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/AuthProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="586" selection-end="599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Recources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="89" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.05733558">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/auth/VkAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+        <state line="90" column="82" selection-start="3046" selection-end="3046" vertical-scroll-proportion="0.5733558">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/AuthProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/network/IVkResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/audio/IAudioResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="132" selection-end="132" vertical-scroll-proportion="0.17142858">
+        <state line="2" column="16" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/network/RequestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="46" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.71428573">
+        <state line="24" column="0" selection-start="600" selection-end="600" vertical-scroll-proportion="0.8814016">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/AudioMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="23" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/AudioObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="13" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/network/VkConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="38" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.42857143">
+        <state line="16" column="33" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1728#1887#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#3239#3398#0" expanded="true" />
+            <element signature="e#3383#3384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainStage.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="595" selection-end="685" vertical-scroll-proportion="0.6857143">
+        <state line="30" column="0" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/StageStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainStage.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="64" selection-start="1634" selection-end="1634" vertical-scroll-proportion="2.0816326">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1149#1752#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
           </folding>
         </state>
       </provider>

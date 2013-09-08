@@ -17,8 +17,31 @@ public class AuthProfile {
             "v=%s&" +
             "response_type=%s";
 
-    public static String getAuthLink() {
+    static String getAuthLink() {
         return String.format(patternString, appId, scope, redirectUri, display, apiVersion, responseType);
     }
+
+    static String accessToken;
+    static String userId;
+    static long expireOver;
+
+    public static void initAuth(String token, String id, long expire) {
+        accessToken = token;
+        userId = id;
+        expireOver = expire;
+    }
+
+    public static String getAccessToken() {
+        return accessToken;
+    }
+
+    public static String getUserId() {
+        return userId;
+    }
+
+    public static long getExpireOver() {
+        return expireOver;
+    }
+
 
 }

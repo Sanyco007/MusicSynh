@@ -1,6 +1,7 @@
 package auth;
 
-import gui.MainStage;
+import gui.MainController;
+import gui.StageStarter;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -13,6 +14,10 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 import resources.Recources;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
 public class VkAuth {
 
     private Scene _scene;
@@ -23,6 +28,9 @@ public class VkAuth {
     private Label label;
 
     private String accessToken;
+    private String userId;
+    private long expiresOver;
+
     private boolean startMainStage = false;
     private boolean loaded = false;
 
@@ -67,8 +75,32 @@ public class VkAuth {
                     int pos = location.indexOf("access_token=") +  "access_token=".length();
                     int len = location.indexOf("&", pos);
                     accessToken = location.substring(pos, len);
+
+                    pos = location.indexOf("user_id=") + "user_id=".length();
+                    userId = location.substring(pos);
+
+                    pos = location.indexOf("expires_in=") + "expires_in=".length();
+                    len = location.indexOf("&", pos);
+                    String expiresIn = location.substring(pos, len);
+                    int seconds = Integer.parseInt(expiresIn);
+
+                    long currentDate = System.currentTimeMillis() / 1000;
+                    expiresOver = currentDate + seconds;
+
+                    AuthProfile.initAuth(accessToken, userId, expiresOver);
+
+                    try {
+                        Writer sw = new FileWriter("auth.dat");
+                        sw.append(accessToken + "\r\n");
+                        sw.append(userId + "\r\n");
+                        sw.append(expiresOver + "");
+                        sw.flush();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
                     if (!startMainStage) {
-                        new MainStage(accessToken).show();
+                        StageStarter.startStage(MainController.class.getResource("mainstage.fxml"), "VkMusic");
                         startMainStage = true;
                         s.close();
                     }

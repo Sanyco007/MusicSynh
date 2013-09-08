@@ -5,6 +5,8 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.UnsupportedEncodingException;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -39,8 +41,56 @@ public class VkConnection {
                     .append((String) item.getValue());
         }
         String params = parametersBuilder.toString();
+        params = encodeURLComponent(params);
         String uri = String.format(request, method, params, accessToken);
         new RequestThread(this, uri).start();
+    }
+
+    public static String encodeURLComponent(final String s)
+    {
+        if (s == null)
+        {
+            return "";
+        }
+
+        final StringBuilder sb = new StringBuilder();
+
+        try
+        {
+            for (int i = 0; i < s.length(); i++)
+            {
+                final char c = s.charAt(i);
+
+                if (((c >= 'A') && (c <= 'Z')) || ((c >= 'a') && (c <= 'z')) ||
+                        ((c >= '0') && (c <= '9')) ||
+                        (c == '-') ||  (c == '.')  || (c == '_') ||
+                        (c == '~') || (c == '=') || (c == '&'))
+                {
+                    sb.append(c);
+                }
+                else
+                {
+                    final byte[] bytes = ("" + c).getBytes("UTF-8");
+
+                    for (byte b : bytes)
+                    {
+                        sb.append('%');
+
+                        int upper = (((int) b) >> 4) & 0xf;
+                        sb.append(Integer.toHexString(upper).toUpperCase(Locale.US));
+
+                        int lower = ((int) b) & 0xf;
+                        sb.append(Integer.toHexString(lower).toUpperCase(Locale.US));
+                    }
+                }
+            }
+
+            return sb.toString();
+        }
+        catch (UnsupportedEncodingException uee)
+        {
+            throw new RuntimeException("UTF-8 unsupported!?", uee);
+        }
     }
 
     void finishRequest(String response) {
